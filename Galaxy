@@ -13,7 +13,7 @@ local function GetURL(scripturl)
 		end
 		return readfile("Galaxy/"..scripturl)
 	else
-		local res = game:HttpGet("https://github.com/MonoplyMan01/Ga.scripturl, true)
+		local res = game:HttpGet("https://github.com/MonoplyMan01/Galaxy.git, true)
 		assert(res ~= "404: Not Found", "File not found")
 		return res
 	end
